@@ -1,0 +1,160 @@
+<!--DOCTYPE html-->
+<html>
+	<head>
+		<title>Charlie Frederick - Contact</title>
+		<style>
+		div{
+			border:0px solid;			
+		} 
+		p.verdana-font{
+			font: 16px verdana, sans-serif;
+		}
+		.clearfix{
+			clear:both
+		}
+		.header{
+			height: 75px;
+			verticle-align: middle;
+		}
+		header{
+			height:40px;
+			position:sticky;
+			top:10px;
+			border-bottom: 5px solid;
+			border-top: 5px solid;
+		}
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 9px 0px;
+			background-color: white;
+			height: 22px;
+		}
+		li {
+			text-align: center;
+			display: inline;
+			float: left;
+			width: 16%;
+			height:40px;
+			box-sizing:border-box;
+			z-index: 100;
+			font: 16px verdana, sans-serif;
+		}
+		li a {				
+			color: black;
+			text-align: left;
+			padding: 15px 17px;
+			text-decoration: none;
+		}
+		hr{
+			width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.content{
+			margin: auto;
+			margin-bottom: 350px;
+		}
+		.footer{
+			height:200px;
+			float:left;
+			width:100%;
+			box-sizing: border-box;
+			border-top: 5px solid;
+			background-color: #bababa;
+		}
+		.center {
+		  display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		  width: 50%;
+		}
+		input[type=text]{
+			width: 75%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+		}
+		legend{
+			font: bold 18px verdana, sans-serif;
+		}
+		</style>
+	</head>
+	<body>
+		<div class = "header">
+			<h3 style = "text-align:center; font: 20px verdana, sans-serif; padding: 20px;">Charlie Frederick's Personal Website</h3>
+		</div>
+		<header>
+			<div class="clearfix"></div>
+			<div style="height:30px">
+				<ul>
+					<li style = "width:26%;text-align:right" ><a href="About Me.html" style="padding: 2px;">About Me</a></li>
+					<li><a href="Education.html" style="padding: 2px;">Education</a></li>
+					<li style = "border: 0px"><a href="Hobbies.html" style="padding: 2px;">Hobbies</a></li>
+					<li><a href="Contact.html" style="padding: 2px;">Contact</a></li>
+					<li style = "width:26%;text-align:left"><a href="Quiz.html" style="padding: 2px;">Quiz</a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="content">
+			<h1 style="text-align: center; font: bold 24px verdana, sans-serif;padding: 30px;">Contact Me</h1>
+			<div style="float:left; width:50%; box-sizing:border-box; padding: 10px;">
+				<h4 style="text-align: center; font: bold 18px verdana, sans-serif;padding: 30px;">Send Charlie a Message</h4>
+				<form method="POST">
+					<legend>Name</legend>
+					<br />
+					<label for="First name">First name	</label><br />
+					<input for="First name" type="text"/><br />
+					<label for="last">Last name</label><br />
+					<input for="last" type="text"/><br />
+					<br />
+					<legend>Subject</legend>
+					<br />
+					<label for="subject">Subject:</label><br />
+					<input id="subject" type="text"/><br />
+					<br />
+					<legend>Socials</legend>
+					<br />
+					<label for="phone">Phone Number</label><br />
+					<input for="phone" type="text"/><br /><br />
+					<label for="email">Email</label><br />
+					<input for="email" type="text" /><br /><br />
+					<legend>Message</legend>
+					<br />
+					<textarea name="message" style = "height: 150px; width: 75%;"></textarea>
+					<br /><br />
+					<a href="delivery.html">
+					<input type="submit" value="Submit" style="height:40px; width: 80px; font: 16px verdana, sans-serif;">
+					</a>
+					<input type="reset" value="Cancel" style="height:40px; width: 80px; font: 16px verdana, sans-serif;">
+				</form>
+			</div>
+			<div style="float:left; width:50%; box-sizing:border-box; padding: 10px;">
+				<h4 style="text-align: center; font: bold 18px verdana, sans-serif;padding: 30px;">My Socials</h4>
+				<a href="https://www.instagram.com/cafrederick_9/">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png"  style="width: 40%;padding: 20px" alt="Instagram Logo" />
+				</a>
+				<a href="https://twitter.com/cafrederick9">
+				<img src="https://th.bing.com/th/id/R14228c7a6cea369958dfb2708b4624dc?rik=Qa956Np1tp8Zcg&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2017%2f06%2fTwitter-Logo.png&ehk=6ekNd2ZmhpvFDGRZF19QcumP9fb8pZRkwrbFbK%2bpULA%3d&risl=&pid=ImgRaw"  style="width: 40%; padding: 20px" alt="Twitter Logo" />
+				</a>
+				<a href="https://open.spotify.com/user/cafrederick9">
+				<img src="https://amhsnewspaper.com/wp-content/uploads/2019/12/Spotify-Logo.png"  style="width: 40%;padding: 20px" alt="Spotify Logo" />
+				</a>
+				<a href="https://www.twitch.tv/polarbear6789">
+				<img src="https://www.windowscentral.com/sites/wpcentral.com/files/topic_images/2016/twitch-logo-topic.png"  style="width: 40%;padding: 20px" alt="Twitch Logo" />
+				</a>
+			</div>
+		</div>
+		<footer>
+			<div class="footer">
+				<ul style="padding-top: 50px; background-color: #bababa; position: relative;">
+					<li style = "width:26%;text-align:right;" ><a href="About Me.html" style="padding: 2px;">About Me</a></li>
+					<li><a href="Education.html" style="padding: 2px;">Education</a></li>
+					<li><a href="Hobbies.html" style="padding: 2px;">Hobbies</a></li>
+					<li><a href="Contact.html" style="padding: 2px;">Contact</a></li>
+					<li style = "width:26%;text-align:left;"><a href="Quiz.html" style="padding: 2px;">Quiz</a></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>

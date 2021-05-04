@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Charlie Frederick - Quiz</title>
+	<link rel="stylesheet" type="text/css" href="Quiz.css">
+	<script type="text/javascript" src="Quiz.js"></script>
+</head>
+<body>
+	<div class = "header">
+		<h3 style = "text-align:center; font: 20px verdana, sans-serif; padding: 20px;">Charlie Frederick's Personal Website</h3>
+	</div>
+	<header>
+		<div class="clearfix"></div>
+		<div style="height:30px">
+			<ul>
+				<li style = "width:26%;text-align:right" ><a href="About Me.html" style="padding: 2px;">About Me</a></li>
+				<li><a href="Education.html" style="padding: 2px;">Education</a></li>
+				<li style = "border: 0px"><a href="Hobbies.html" style="padding: 2px;">Hobbies</a></li>
+				<li><a href="Contact.html" style="padding: 2px;">Contact</a></li>
+				<li style = "width:26%;text-align:left" style="padding: 2px;"><a href="Quiz.html">Quiz</a></li>
+			</ul>
+		</div>
+	</header>
+	<form name="quiz" id="quiz">
+		<div style="width:100%">
+			<div style="float:left; width:50%; box-sizing:border-box; padding: 10px;">
+				<p class="verdana-font">1. Where did I grow up?</p><br />
+				<p class="verdana-font"><input type="radio" name="question1" value="Manchester">A. Manchester, England</p>
+				<p class="verdana-font"><input type="radio" name="question1" value="Cincinnati">B. Cincinnati, Ohio</p>
+				<p class="verdana-font"><input type="radio" name="question1" value="DC">C. Washington D.C.</p>
+				<p class="verdana-font"><input type="radio" name="question1" value="Lexington">D. Lexington, Kentucky</p>
+				<br />
+			</div> 
+			<div style="float:left; width:50%; box-sizing:border-box; padding: 10px;">
+				<img src="http://4.bp.blogspot.com/-S2a5PRNn39o/T4RgaGPKkFI/AAAAAAAAAX4/1aCNsnEBHMk/s1600/GlobeColored.png"  class="center" alt="Globe" style = "padding: 20px; width: 49%" />
+			</div>
+		</div>
+		<div style="width:100%">
+			<div style="float:left; width:50%; box-sizing:border-box; padding: 10px;">
+				<p class="verdana-font">2. What is my favorite sport?</p><br />
+				<p class="verdana-font"><input type="radio" name="question2" value="Basketball">A. Basketball</p>
+				<p class="verdana-font"><input type="radio" name="question2" value="Football">B. Football</p>
+				<p class="verdana-font"><input type="radio" name="question2" value="Golf">C. Golf</p>
+				<p class="verdana-font"><input type="radio" name="question2" value="Baseball ">D. Baseball</p>
+				<br />
+			</div>
+			<div style="float:left; width:50%; box-sizing:border-box; padding: 10px;">
+				<img src="https://thapos.s3.amazonaws.com/article/2015-4/134-all-sports-balls.jpg"  class="center" alt="Sports balls" style = "padding: 20px; width: 49%" />
+			</div>
+		</div>
+		<div style="width:100%">
+			<div style="float:left; width:50%; box-sizing:border-box; padding: 10px;">
+				<p class="verdana-font">3. What University do I attend?</p><br />
+				<p class="verdana-font"><input type="radio" name="question3" value="Northern Kentucky University">A. Northern Kentucky University</p>
+				<p class="verdana-font"><input type="radio" name="question3" value="University of Kentucky">B. University of Kentucky</p>
+				<p class="verdana-font"><input type="radio" name="question3" value="University of Louisville">C. University of Louisville</p>
+				<p class="verdana-font"><input type="radio" name="question3" value="Western Kentucky University">D. Western Kentucky University</p>
+				<br />
+			</div> 
+			<div style="float:left; width:49%; box-sizing:border-box; padding: 10px;">
+				<img src="https://www.admissions.purdue.edu/visit/img/Aerial-of-University-Hall.jpg"  class="center" alt="University" style = "padding: 20px; width: 50%" />		
+			</div>
+		</div>
+		<div style="width:100%">
+			<div style="float:left; width:50%; box-sizing:border-box; padding: 10px;">
+				<p class="verdana-font">4. What video game did I place top 100 in the world at?</p><br />
+				<p class="verdana-font"><input type="radio" name="question4" value="Fifa 17">A. Fifa 17</p>
+				<p class="verdana-font"><input type="radio" name="question4" value="Fifa 18">B. Fifa 18</p>
+				<p class="verdana-font"><input type="radio" name="question4" value="Fifa 19">C. Fifa 19</p>
+				<p class="verdana-font"><input type="radio" name="question4" value="Fifa 20">D. Fifa 20</p>
+				<br />
+			</div> 
+			<div style="float:left; width:50%; box-sizing:border-box; padding: 10px;">
+				<img src="https://www.videogameschronicle.com/files/2020/08/FIFA-21-g-scaled.jpg"  class="center" alt="Eric Cantona Fifa 21" style = "padding: 20px; width: 50%" />			
+			</div>
+		</div>
+		
+		<input type="button" name="" value="Submit" id="button" onclick="check()">
+	</form>
+	
+	<p id="result"></p>
+	<footer>
+		<div class="footer">
+			<ul style="padding-top: 50px; background-color: #bababa; position: relative;">
+				<li style = "width:26%;text-align:right;" ><a href="About Me.html" style="padding: 2px;">About Me</a></li>
+				<li><a href="Education.html" style="padding: 2px;">Education</a></li>
+				<li><a href="Hobbies.html" style="padding: 2px;">Hobbies</a></li>
+				<li><a href="Contact.html" style="padding: 2px;">Contact</a></li>
+				<li style = "width:26%;text-align:left;"><a href="Quiz.html" style="padding: 2px;">Quiz</a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
